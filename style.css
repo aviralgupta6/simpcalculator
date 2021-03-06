@@ -1,0 +1,47 @@
+.center {
+  text-align: center;
+}
+.box {
+  margin: auto;
+  border: 10px solid red;
+  padding: 10px;
+  width: 300px;
+  height: 400px;
+  background-color: black;
+  border-bottom-left-radius: 8%;
+  border-bottom-right-radius: 8%;
+}
+.screen {
+  margin-bottom: 2px;
+  border: 1px solid green;
+  padding: 5px;
+  width: 290px;
+  height: 100px;
+  background-color: rgb(211, 211, 211);
+  border-radius: 2%;
+}
+/* .input {
+  /* text-align: end; */
+/* text-align: end;
+  margin: 80px 10px;
+  background-color: rgb(211, 211, 211);
+  user-select: none; */
+/* } */
+.btn {
+  margin: 1.51px;
+  border: 1px solid green;
+  height: 45px;
+  padding: 2px;
+  background-color: lavender;
+  border-radius: 10%;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 24%;
+}
